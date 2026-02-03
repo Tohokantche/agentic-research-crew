@@ -1,6 +1,6 @@
-# 🔍 Deep Agentic Research Assistant using CrewAI
+# 🔍 Agentic Research Assistant using [CrewAI](https://crewai.com)
 
-A deep agentic research assistant built with CrewAI, Serper, and Streamlit that helps you research any topic using AI Agents.
+A deep agentic research assistant built with CrewAI, Serper, and Streamlit that helps you research any topic.
 
 ![Agentic  research assistant ](screenshot.png "")
 
