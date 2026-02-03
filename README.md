@@ -12,11 +12,11 @@ https://agentic-research-crew-wgmesdsjqy2tsmjosxa3wm.streamlit.app/
 
 ## 🌟 Features
 
-- 🤖 Multiple LLM Support
+- 🤖 Multiple LLMs Support
 - 🔍 Advanced answering capabilities using web search
 - 📊 Real-time research process visualization
 - 📝 Structured downloadable research reports
-- 🎯 Topic-focused research and analysis
+- 🎯 Topic-driven research and analysis
 - 💾 Long, Short, and Entity memory integration
 - 🔒 Secure API key management
 - 📱 Responsive and modern UI
@@ -79,7 +79,7 @@ agentic-research-crew
 ## 📋 Requirements
 
 - Python >=3.10 and <3.13
-- OpenAI API key or GROQ API key
+- OpenAI API key or GROQ API key for LLMs
 - Serper API key for web search
 - Streamlit for UI
 
@@ -123,7 +123,7 @@ Enter these keys in the sidebar of the application when prompted.
 ## 🎯 Usage
 
 1. Open the application in your web browser
-2. Select your preferred LLM provider (OpenAI or GROQ)
+2. Select your preferred LLM provider (OpenAI, GROQ, Ollama)
 3. Enter your API keys in the sidebar
 4. Type your research topic and question in the text area
 5. Click "Start Research" to begin the research process
@@ -133,7 +133,7 @@ Enter these keys in the sidebar of the application when prompted.
 
 ### Research Agent
 The research agent (`src/research_crew/crew.py`) is powered by CrewAI and configured to:
-- Conduct thorough research on given topic and detailed question
+- Conduct thorough research on a given topic, and a detailed question
 - Analyze and summarize information
 - Provide structured reports with key findings
 
