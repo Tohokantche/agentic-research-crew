@@ -78,10 +78,10 @@ os.environ["MODEL_NAME"] =  f"{selection['provider'].lower()}/{selection['model'
 # Create two columns for the input section
 input_col1, input_col2, input_col3 = st.columns([1, 3, 1])
 with input_col2:
-    topic = st.text_input("Main topic of your research: ", value="LLM", on_change=on_text_change)
+    topic = st.text_input("Main topic of your research: ", placeholder="LLM", on_change=on_text_change)
     detailed_questions = st.text_area(
         "Specific questions or subtopics you are interested in exploring: ",
-        value="How to evaluate LLMs model ?",
+        placeholder="How to evaluate LLMs model ?",
         on_change=on_text_change,
         height=68
     )
