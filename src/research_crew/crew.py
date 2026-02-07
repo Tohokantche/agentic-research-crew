@@ -47,7 +47,7 @@ class ResearchCrewAgents:
             allow_delegation=False,
             tools=[self.serper, self.web, self.web_scrape],
             llm = LLM(**self.llms_config),
-            max_iter=3,
+            max_iter=2,
             verbose=True
         )
 
@@ -56,7 +56,7 @@ class ResearchCrewAgents:
             config=self.agents_config['analyst_agent'],
             allow_delegation=False,
             llm = LLM(**self.llms_config),
-            max_iter=3,
+            max_iter=2,
             verbose=True
         )
     
@@ -66,7 +66,7 @@ class ResearchCrewAgents:
             config=self.agents_config['writer_agent'],
             allow_delegation=False,
             llm = LLM(**self.llms_config),
-            max_iter=3,
+            max_iter=2,
             verbose=True
         )
 
