@@ -24,7 +24,8 @@ class StreamlitProcessOutput:
             return None
             
         # Clean up the formatting
-        text = text.replace('[1m', '').replace('[95m', '').replace('[92m', '').replace('[00m', '')
+        # text = text.replace('[1m', '').replace('[95m', '').replace('[92m', '').replace('[00m', '')
+        text = text.replace('[32m', '').replace('[0m', '').replace('[33m', '').replace('[36m', '').replace('[1m', '').replace("│", '')
         return text
         
     def write(self, text):
