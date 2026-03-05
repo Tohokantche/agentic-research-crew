@@ -85,7 +85,7 @@ with input_col2:
     detailed_questions = st.text_area(
         "Specific questions or subtopics you are interested in exploring: ",
         placeholder="How to evaluate LLMs model ?",
-        on_change=on_text_change,
+        key="detailed_questions_key",
         height=68
     )
 
